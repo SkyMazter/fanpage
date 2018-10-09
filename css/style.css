@@ -1,3 +1,6 @@
+*{
+    margin:0;
+}
 html {
     height: 100%;
 }
@@ -8,12 +11,35 @@ body {
 }
 a {
     text-decoration: none;
+    color: Orange;
+    font-size: 25px;
 }
 
+.header{
+    background-color: black;
+    color:orange;
+    display: flex;
+    font-size:50px;
+    font-family: 'Jockey One', sans-serif;
+    justify-content: center;
+    padding: 7px;
+}
+.navbar{
+    background-color: black;
+    color:orange;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Jockey One', sans-serif;
+    justify-content: space-around;
+    
+}
 .main {
     height: 100%;
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+.logo {
+
 }
