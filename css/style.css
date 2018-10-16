@@ -7,7 +7,12 @@ html {
 
 body {
     height: 100%;
-    
+    background-color: #2f343d;
+}
+p{
+    color: Orange;
+    font-size: 25px;
+    font-family: 'Jockey One', sans-serif;
 }
 a {
     text-decoration: none;
@@ -35,7 +40,27 @@ a {
     
 }
 .main {
+    background-color: #2f343d;
+    display:flex;
+    
     height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.games{
+    border:orange solid 5px;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: black;
+}
+.games img{
+    height:312px;
+    width:220px;
+}
+.content{
+    background-color: #2f343d;
 }
 .social-image{
     width: 30px;
